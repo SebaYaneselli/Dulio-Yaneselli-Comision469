@@ -7,21 +7,21 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 10px;
-    background-color:beige
+    background-color: #b7c0c5
 }
 header {
     position:sticky;
     
 }
 h1 {
-    background-color: #000305;
+    background-color: #084C61;
     color: white;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
 h2 {
-    background-color: #D6EDFF;
+    background-color: #56A3A6;
     color: black;
     text-align: center;
 }
@@ -46,6 +46,7 @@ p { font-size:  1.6rem;
 .alto {
     height: 50vh;
 }
+
 .tituloIndex{
     color: white;
     background-color: black;
@@ -66,3 +67,7 @@ p { font-size:  1.6rem;
 .footer ul{
     list-style: none;  
   }
+.ricardo {
+    background-image: url("../assets/img/fondo5.jpg");
+    background-attachment: fixed;
+}
