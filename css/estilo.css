@@ -1,4 +1,27 @@
+/*mapa*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,700;1,900&display=swap");
+h1 {
+  background-color: #084C61;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  background-color: #56A3A6;
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.bgVerdeagua {
+  background-color: #84DCC6;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,103 +45,39 @@ header :hover {
   color: black;
 }
 
-header a {
-  text-decoration: none;
-  color: black;
-}
-
-header a:hover {
-  color: black;
-}
-
-h1 {
-  background-color: #084C61;
-  color: white;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-}
-
-h2 {
-  background-color: #56A3A6;
-  color: black;
-  text-align: center;
-}
-
-p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.bgVerdeagua {
-  background-color: #84DCC6;
-}
-
-.colorBlack {
-  color: black;
-}
-
-.alto {
-  height: 50vh;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  z-index: 1;
-}
-
-.tituloIndex {
-  color: white;
-  background-color: black;
-}
-
-.btn-color {
-  background-color: #56A3A6;
-  color: white;
-  border: none;
-}
-
-.btn-color:hover {
-  background-color: #084C61;
-  color: white;
-}
-
-.btn-alt {
-  background-color: #84DCC6;
-  color: white;
-  border: none;
-}
-
-.btn-alt:hover {
-  background-color: #084C61;
-  color: white;
-}
-
-.Fondo {
+main .Fondo {
   background-image: url("../assets/img/fondo5.jpg");
   background-attachment: fixed;
 }
-
-.logo {
-  height: 125px;
-  width: 300px;
+main section .colorBlack {
+  color: black;
 }
-
-.iconos {
-  margin-top: 10px;
+main section .colorBlack .alto {
+  height: 50vh;
 }
-
-.iconos a {
-  text-decoration-line: none;
+main section .card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+main section .btn-color {
+  background-color: #56A3A6;
   color: white;
-  padding: 10px;
-  font-size: 50px;
+  border: none;
 }
-
-.iconos a:hover {
-  color: #84DCC6;
+main section .btn-color:hover {
+  background-color: #084C61;
+  color: white;
 }
-
-.bordes {
+main section .btn-alt {
+  background-color: #84DCC6;
+  color: white;
+  border: none;
+}
+main section .btn-alt:hover {
+  background-color: #084C61;
+  color: white;
+}
+main section .bordes {
   border-radius: 14px 14px 14px 14px;
 }
 
@@ -127,6 +86,22 @@ footer {
   color: white;
   background-color: #084C61;
   border-radius: 0px 0px 14px 14px;
+}
+footer .iconos {
+  margin-top: 10px;
+}
+footer .iconos a {
+  text-decoration-line: none;
+  color: white;
+  padding: 10px;
+  font-size: 50px;
+}
+footer .iconos a:hover {
+  color: #84DCC6;
+}
+footer .logo {
+  height: 125px;
+  width: 300px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

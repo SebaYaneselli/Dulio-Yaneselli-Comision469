@@ -1,6 +1,6 @@
 header {
     background-color: $color-primario;
-    border-radius: 14px 14px 0px 0px;
+    border-radius: map-get($bordes-hedfoo,bordearriba );
 
     a {
         text-decoration: none;
@@ -10,13 +10,4 @@ header {
     :hover {
         color: $color-negro
     }
-}
-
-header a {
-    text-decoration: none;
-    color: $color-negro;
-}
-
-header a:hover {
-    color: $color-negro
 }

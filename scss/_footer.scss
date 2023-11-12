@@ -2,5 +2,23 @@ footer {
     padding: 10px;
     color:$color-blanco;
     background-color: $color-terciario;
-    border-radius: 0px 0px 14px 14px;
+    border-radius: map-get($bordes-hedfoo,borderabajo );
+    .iconos {
+        margin-top: 10px;
+    }
+    
+    .iconos a {
+        text-decoration-line: none;
+        color:$color-blanco;
+        padding: 10px;
+        font-size: 50px;
+    }
+    
+    .iconos a:hover {
+        color: $color-primario;
+    }
+    .logo {
+        height: 125px;
+        width: 300px;
+    }
 }

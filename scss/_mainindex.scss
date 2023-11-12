@@ -1,83 +1,47 @@
-h1 {
-    background-color: $color-terciario;
-    color: $color-blanco;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
+main { 
+    .Fondo {
+        background-image: url("../assets/img/fondo5.jpg");
+        background-attachment: fixed;
+    }
+    
+    section{
+        
+        .colorBlack {
+            color: $color-negro;
+            .alto {
+                height: 50vh;
+            }
+        }
+        .card:hover {
+            transform: scale(1.05);
+            z-index: 1;
+        }
+        .btn-color {
+            background-color: $color-secundario;
+            color: $color-blanco;
+            border: none;
+        }
+        
+        .btn-color:hover {
+            background-color: $color-terciario;
+            color: $color-blanco
+        }
+        
+        .btn-alt {
+            background-color:  $color-primario;
+            color: $color-blanco;
+            border: none;
+        }
+        
+        .btn-alt:hover {
+            background-color:$color-terciario;
+            color: $color-blanco
+        }
+        .bordes {
+            border-radius: 14px 14px 14px 14px;
+        }
+    }
+    
+    
 
-h2 {
-    background-color: $color-secundario;
-    color: $color-negro;
-    text-align: center;
-}
-
-p { font-size:  1rem;
-    line-height: 1.5
-}
-
-.bgVerdeagua {
-    background-color: $color-primario;
-}
-.colorBlack {
-    color: $color-negro;
-}
-.alto {
-    height: 50vh;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    z-index: 1;
-}
-.tituloIndex{
-    color: $color-blanco;
-    background-color: $color-negro;
-}
-.btn-color {
-    background-color: $color-secundario;
-    color: $color-blanco;
-    border: none;
-}
-
-.btn-color:hover {
-    background-color: $color-terciario;
-    color: $color-blanco
-}
-
-.btn-alt {
-    background-color:  $color-primario;
-    color: $color-blanco;
-    border: none;
-}
-
-.btn-alt:hover {
-    background-color:$color-terciario;
-    color: $color-blanco
-}
-
-.Fondo {
-    background-image: url("../assets/img/fondo5.jpg");
-    background-attachment: fixed;
-}
-.logo {
-    height: 125px;
-    width: 300px;
-}
-.iconos {
-    margin-top: 10px;
-}
-
-.iconos a {
-    text-decoration-line: none;
-    color:$color-blanco;
-    padding: 10px;
-    font-size: 50px;
-}
-
-.iconos a:hover {
-    color: $color-primario;
-}
-
-.bordes {
-    border-radius: 14px 14px 14px 14px;
 }
