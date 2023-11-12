@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    
+    background-color: #b7c0c5
+}
+header {
+    background-color: #84DCC6;
+    border-radius: 14px 14px 0px 0px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    :hover {
+        color: black
+    }
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: black
+}
+h1 {
+    background-color: #084C61;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    background-color: #56A3A6;
+    color: black;
+    text-align: center;
+}
+
+p { font-size:  1rem;
+    line-height: 1.5
+}
+footer {
+    padding: 10px;
+    color:white;
+    background-color: #084C61;
+    border-radius: 0px 0px 14px 14px;
+}
+.header {
+
+        .link-glam:hover{
+            color: rgb(41, 46, 49);
+            background-color: rgb(247, 247, 247);
+        } 
+    
+}
+.bgVerdeagua {
+    background-color: #84DCC6;
+}
+.colorBlack {
+    color: black;
+}
+.alto {
+    height: 50vh;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+.tituloIndex{
+    color: white;
+    background-color: black;
+}
+.btn-color {
+    background-color: #56A3A6;
+    color: white;
+    border: none;
+}
+
+.btn-color:hover {
+    background-color: #084C61;
+    color: white
+}
+
+.btn-alt {
+    background-color:  #84DCC6;
+    color: white;
+    border: none;
+}
+
+.btn-alt:hover {
+    background-color: #084C61;
+    color: white
+}
+
+.ricardo {
+    background-image: url("../assets/img/fondo5.jpg");
+    background-attachment: fixed;
+}
+.logo {
+    height: 125px;
+    width: 300px;
+}
+.iconos {
+    margin-top: 10px;
+}
+
+.iconos a {
+    text-decoration-line: none;
+    color:white;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.iconos a:hover {
+    color: #84DCC6;
+}
+
+.bordes {
+    border-radius: 14px 14px 14px 14px;
+}
