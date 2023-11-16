@@ -22,6 +22,10 @@ p {
   background-color: #84DCC6;
 }
 
+.animaciones {
+  overflow: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
