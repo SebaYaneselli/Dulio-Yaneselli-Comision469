@@ -1,10 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $tipografia-general;
 }
+
 body {
+    background-image: $fondo-deg;
+    background-size: 500%;
+    animation: hola 10s infinite;
+
+
+
     
-    background-color: $color-fondo
+}
+
+@keyframes hola {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }

@@ -4,7 +4,7 @@ $color-secundario:#56A3A6;
 $color-terciario:#084C61;
 $color-negro: black;
 $color-blanco: white;
-$color-fondo: #b7c0c5;
+$fondo-deg:linear-gradient(90deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
 
 
 /*mapa*/
@@ -12,3 +12,5 @@ $bordes-hedfoo: (
     borderabajo: 0px 0px 14px 14px,
     bordearriba: 14px 14px 0px 0px,
 )
+
+

@@ -34,9 +34,22 @@ p {
 }
 
 body {
-  background-color: #b7c0c5;
+  background-image: linear-gradient(90deg, hsl(185, 64%, 51%) 0%, hsl(277, 74%, 24%) 100%);
+  background-size: 500%;
+  animation: hola 10s infinite;
 }
 
+@keyframes hola {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 header {
   background-color: #84DCC6;
   border-radius: 14px 14px 0px 0px;
@@ -49,10 +62,6 @@ header :hover {
   color: black;
 }
 
-main .Fondo {
-  background-image: url("../assets/img/fondo5.jpg");
-  background-attachment: fixed;
-}
 main section .colorBlack {
   color: black;
 }
@@ -107,6 +116,5 @@ footer .logo {
   height: 125px;
   width: 300px;
 }
-
 
 /*# sourceMappingURL=estilo.css.map */
