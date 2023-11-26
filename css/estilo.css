@@ -1,16 +1,24 @@
 /*mapa*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,700;1,900&display=swap");
+
 h1 {
-  background-color: #084C61;
-  color: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  color: black;
+  text-align: center;
+  background-image: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+  background-size: 300%;
+  animation: hola 10s infinite;
+  border-radius: 10px 10px;
 }
 
 h2 {
-  background-color: #56A3A6;
-  color: black;
+  color: rgb(253, 253, 253);
   text-align: center;
+  background-image: linear-gradient(90deg, hsla(198, 65%, 34%, 1) 0%, hsla(178, 44%, 32%, 1) 100%);
+  background-size: 300%;
+  animation: hola 10s infinite;
+  border-radius: 10px 10px;
 }
 
 p {
@@ -20,6 +28,7 @@ p {
 
 .bgVerdeagua {
   background-color: #84DCC6;
+
 }
 
 .annimaciones {
@@ -34,30 +43,36 @@ p {
 }
 
 body {
-  background-image: linear-gradient(90deg, hsl(185, 64%, 51%) 0%, hsl(277, 74%, 24%) 100%);
+  background-image: linear-gradient(90deg, hsla(184, 82%, 51%, 1) 0%, hsla(275, 77%, 70%, 1) 50%, hsla(351, 88%, 62%, 1) 100%);
   background-size: 500%;
   animation: hola 10s infinite;
 }
+
 
 @keyframes hola {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
 }
+
 header {
   background-color: #84DCC6;
-  border-radius: 14px 14px 0px 0px;
+
 }
+
 header a {
   text-decoration: none;
   color: black;
 }
+
 header :hover {
   color: black;
 }
@@ -65,31 +80,38 @@ header :hover {
 main section .colorBlack {
   color: black;
 }
+
 main section .colorBlack .alto {
   height: 50vh;
 }
+
 main section .card:hover {
   transform: scale(1.05);
   z-index: 1;
 }
+
 main section .btn-color {
   background-color: #56A3A6;
   color: white;
   border: none;
 }
+
 main section .btn-color:hover {
   background-color: #084C61;
   color: white;
 }
+
 main section .btn-alt {
   background-color: #84DCC6;
   color: white;
   border: none;
 }
+
 main section .btn-alt:hover {
   background-color: #084C61;
   color: white;
 }
+
 main section .bordes {
   border-radius: 14px 14px 14px 14px;
 }
@@ -98,23 +120,72 @@ footer {
   padding: 10px;
   color: white;
   background-color: #084C61;
-  border-radius: 0px 0px 14px 14px;
+
 }
+
 footer .iconos {
   margin-top: 10px;
 }
+
 footer .iconos a {
   text-decoration-line: none;
   color: white;
   padding: 10px;
   font-size: 50px;
 }
-footer .iconos a:hover {
-  color: #84DCC6;
+
+footer .iconos {
+
+  .iconosWa a :hover {
+    color: #4dc247
+  }
+  .iconosFa a :hover {
+    color: #3b5998;
+  }
+  .iconosIn a :hover {
+    color: #D43089
+  }
 }
+
 footer .logo {
   height: 125px;
-  width: 300px;
+  width: 350px;
+}
+
+.button_slide {
+  background-color: #084C61;
+  color: #FFF;
+  border: 2px solid #84DCC6;
+  border-radius: 0px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #84DCC6;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+  box-shadow: inset 0 100px 0 0 #84DCC6;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #84DCC6;
+}
+
+.slide_left:hover {
+  box-shadow: inset 0 0 0 50px #84DCC6;
+}
+
+.slide_diagonal:hover {
+  box-shadow: inset 400px 50px 0 0 #84DCC6;
+}
+
+.tarjetaProducto {
+  width: 50vh;
 }
 
 /*# sourceMappingURL=estilo.css.map */
