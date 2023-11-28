@@ -188,4 +188,37 @@ footer .logo {
   width: 50vh;
 }
 
+.cardVM {
+  background-color:#0003033b;
+}
+.cardVMT{
+  object-fit: cover;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-shadow:0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+
+.cardVMP{
+  object-fit: cover;
+    text-align: center;
+    color: #84dcc6;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-shadow:0 0 10px #000b0f,
+    0 0 20px #000b0f;
+}
+
+.cardVMTT{
+  background-color: #0a0000bb;
+  border-radius: 10px 10px;
+}
+
 /*# sourceMappingURL=estilo.css.map */
