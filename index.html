@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/cbbd236219.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
+
 <body class="">
     <script>
         AOS.init();
@@ -49,77 +50,111 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid mx-auto">
-        <section class="mainSection container-fluid mx-auto">
-            <h1 class="text-center w-100 fs-1 fw-bolder  ">Ofertas imperdibles </h1>
-            <div id="carouselExample" class="carousel slide container-fluid">
+    <main class="">
+        <div class="container">
+            <h1 class="text-center w-100 fs-1 fw-bolder mt-4 ">Ofertas imperdibles </h1>
+        </div>
+        <div class="">
+            <div id="CarouselIndex" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/333.png" class="d-block w-100  " alt="...">
+                        <img src="./assets/img/33.png" alt="Imagen banner">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/2.png" class="d-block w-100 " alt="...">
+                        <img src="./assets/img/1.png" alt="Imagen banner 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/1.png" class="d-block w-100 " alt="...">
+                        <img src="./assets/img/2.png" alt="Imagen banner 3">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
+                <a class="carousel-control-prev" href="#CarouselIndex" role="button" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#CarouselIndex" role="button" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                    <span class="visually-hidden">Siguiente</span>
+                </a>
             </div>
-        </section class=" container-fluid">
-        <h2 class="tituloSecundario text-center fs-2 fw-bolder ">Colección 2023 </h2>
-        <a class="tarjeta text-decoration-none colorBlack" href="#">
-            <section class="d-flex flex-wrap justify-content-evenly align-items-center text-center container-fluid   ">
-                <div class="tarjetaProducto bgVerdeagua">
-                    <img src="./assets/img/De fiesta.jpeg" alt="Cartera de fiesta">
-                    </img>
-                    <h3 class="tituloTerciario font-monospace">De fiesta</h3>
+        </div>
+        <div class="container">
+            <h2 class="tituloSecundario text-center fs-2 fw-bolder mb-4 ">Colección 2023 </h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="ZoomIndex card cardVM">
+                        <img src="./assets/img/De fiesta.jpeg" class="card-img-top" alt="Cartera de fiesta">
+                        </img>
+                        <div class="cardImagen card-body">
+                            <h3 class="font-monospace text-center fw-bolder">De fiesta</h3>
+                            <p> Tenemos una amplia variedad de carteras de manos en nuestro <span class="fw-bolder">
+                                    catalogo</span> distintos <span class="fw-bolder"> modelos</span> y<span
+                                    class="fw-bolder"> colores</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-        </a>
-        <a class="tarjeta text-decoration-none colorBlack" href="#">
-            <div class="tarjetaProducto">
-                <img src="./assets/img/Bolso.jpeg" alt="Bolsos"> </img>
-                <h3 class="tituloTerciario font-monospace">Bolsos</h3>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="ZoomIndex card cardVM">
+                        <img src="./assets/img/Bolso.jpeg" class="card-img-top" alt="Bolsos"> </img>
+                        <div class="cardImagen card-body">
+                            <h3 class="font-monospace text-center fw-bolder">Bolsos</h3>
+                            <p> Tenemos una amplia variedad de <span class="fw-bolder"> bolsos</span> en nuestro <span
+                                    class="fw-bolder"> catalogo</span> todo tipo de diseños y colores
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="ZoomIndex card cardVM">
+                        <img src="./assets/img/Cartera.jpeg" class="card-img-top" alt="Carteras"> </img>
+                        <div class="cardImagen card-body">
+                            <h3 class="font-monospace text-center fw-bolder">Carteras</h3>
+                            <p> Tenemos una amplia variedad de carteras en nuestro <span class="fw-bolder">
+                                    catalogo</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </a>
-        <a class="tarjeta text-decoration-none colorBlack" href="#">
-            <div class="tarjetaProducto">
-                <img src="./assets/img/Cartera.jpeg" alt="Carteras"></img>
-                <h3 class="tituloTerciario font-monospace">carteras</h3>
+            <h2 class="tituloSecundario text-center fs-2 fw-bolder mb-4 ">Nuevos ingresos</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="ZoomIndex card cardVM">
+                        <img src="./assets/img/delux1.jpeg" class="card-img-top" alt="Cartera de fiesta"> </img>
+                        <div class="cardImagen card-body">
+                            <h3 class="font-monospace text-center fw-bolder">Colección verano</h3>
+                            <p> Actualizamos nuestro <span class="fw-bolder"> catalogo</span> para que tengas productos
+                                para cada <span class="fw-bolder"> temporada</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="ZoomIndex card cardVM">
+                        <img src="./assets/img/delux2.jpeg" class="card-img-top" alt="Bolsos"> </img>
+                        <div class="cardImagen card-body">
+                            <h3 class="font-monospace text-center fw-bolder">Colección Europea</h3>
+                            <p> Siempre esta bien volver a los <span class="fw-bolder"> clasicos</span> en nuestro <span
+                                    class="fw-bolder"> catalogo</span> encontraras variedad para cada ocación
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="ZoomIndex card cardVM">
+                        <img src="./assets/img/delux3.jpeg" class="card-img-top" alt="Carteras"></img>
+                        <div class="cardImagen card-body">
+                            <h3 class="font-monospace text-center fw-bolder">Colección Vintage</h3>
+                            <p> Te gusta lo <span class="fw-bolder"> vintage</span> nuestro <span class="fw-bolder">
+                                    catalogo</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </a>
-        </section>
-        <h2 class="tituloSecundario text-center fs-2 fw-bolder ">Nuevos ingresos</h2>
-        <section class="d-flex flex-wrap justify-content-evenly align-items-center text-center container-fluid">
-            <a class="tarjeta text-decoration-none colorBlack" href="#">
-                <div class="tarjetaProducto">
-                    <img src="./assets/img/delux1.jpeg" alt="Cartera de fiesta">
-                    </img>
-                    <h3 class="tituloTerciario font-monospace">Colección Europea</h3>
-                </div>
-            </a>
-            <a class="tarjeta text-decoration-none colorBlack" href="#">
-                <div class="tarjetaProducto">
-                    <img src="./assets/img/delux2.jpeg" alt="Bolsos"> </img>
-                    <h3 class="tituloTerciario font-monospace">Colección Europea</h3>
-                </div>
-            </a>
-            <a class="tarjeta text-decoration-none colorBlack" href="#">
-                <div class="tarjetaProducto">
-                    <img src="./assets/img/delux3.jpeg" alt="Carteras"></img>
-                    <h3 class="tituloTerciario font-monospace">Colección Vintage</h3>
-                </div>
-            </a>
-        </section>
+        </div>
     </main>
     <div class="annimaciones">
         <footer data-aos="fade-up" data-aos-duration="1000" data-aos-once=true class="container-fluid ">
@@ -152,7 +187,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    
+
 </body>
 
 </html>
