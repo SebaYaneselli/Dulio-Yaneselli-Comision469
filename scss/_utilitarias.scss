@@ -1,22 +1,65 @@
 h1 {
-    background-color: $color-terciario;
-    color: $color-blanco;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background-size: 300%;
+    animation: hola 10s infinite;
+    border-radius: 10px 10px;
 }
 
 h2 {
-    background-color: $color-secundario;
-    color: $color-negro;
+    color: rgb(253, 253, 253);
     text-align: center;
+    background-image: linear-gradient(90deg, hsla(198, 65%, 34%, 1) 0%, hsla(178, 44%, 32%, 1) 100%);
+    background-size: 300%;
+    animation: hola 10s infinite;
+    border-radius: 10px 10px;
 }
 
-p { font-size:  1rem;
-    line-height: 1.5
+p {
+    font-size: 1rem;
+    line-height: 1.5;
 }
+
 .bgVerdeagua {
-    background-color: $color-primario;
+    background-color: #84DCC6;
+
 }
+
 .annimaciones {
     overflow: hidden;
-  }
+}
+
+.button_slide {
+    background-color: #084C61;
+    color: #FFF;
+    border: 2px solid #84DCC6;
+    border-radius: 0px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #84DCC6;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #84DCC6;
+}
+
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #84DCC6;
+}
+
+.slide_left:hover {
+    box-shadow: inset 0 0 0 50px #84DCC6;
+}
+
+.slide_diagonal:hover {
+    box-shadow: inset 400px 50px 0 0 #84DCC6;
+}

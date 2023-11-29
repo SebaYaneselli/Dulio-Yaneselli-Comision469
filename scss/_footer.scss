@@ -2,7 +2,7 @@ footer {
     padding: 10px;
     color:$color-blanco;
     background-color: $color-terciario;
-    border-radius: map-get($bordes-hedfoo,borderabajo );
+    
     .iconos {
         margin-top: 10px;
     }
@@ -14,11 +14,21 @@ footer {
         font-size: 50px;
     }
     
-    .iconos a:hover {
-        color: $color-primario;
+    
+    .iconosWa a :hover {
+            color: #4dc247
+        }
+    
+    .iconosFa a :hover {
+            color: #3b5998;
     }
+    
+    .iconosIn a :hover {
+            color: #D43089
+    }
+    
     .logo {
         height: 125px;
-        width: 300px;
+        width: 350px;
     }
 }
